@@ -2,395 +2,476 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shade Haven</title>
-  <link rel="stylesheet" href="./output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shade Haven</title>
+    <link rel="stylesheet" href="./output.css">
+    <!-- HTML Meta Tags -->
+    <title>Shade Haven</title>
+    <meta name="description"
+        content="We're 100% online so the showroom is in your pocket. Whether you're a DIY warrior or prefer our professional services, you can count on us to deliver top-quality blinds, shades, shutters, and curtains at an affordable price.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://shadehaven-webdevrajeev.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shade Haven">
+    <meta property="og:description"
+        content="We're 100% online so the showroom is in your pocket. Whether you're a DIY warrior or prefer our professional services, you can count on us to deliver top-quality blinds, shades, shutters, and curtains at an affordable price.">
+    <meta property="og:image"
+        content="https://opengraph.b-cdn.net/production/images/a7c0c3c4-712e-4ada-b72b-abcc582541a3.png?token=eEDnO1FlEJ2KO1qbtZnXTeqm_6cyi9Lu07uKkKHW2zw&height=675&width=1200&expires=33278453421">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="shadehaven-webdevrajeev.vercel.app">
+    <meta property="twitter:url" content="https://shadehaven-webdevrajeev.vercel.app/">
+    <meta name="twitter:title" content="Shade Haven">
+    <meta name="twitter:description"
+        content="We're 100% online so the showroom is in your pocket. Whether you're a DIY warrior or prefer our professional services, you can count on us to deliver top-quality blinds, shades, shutters, and curtains at an affordable price.">
+    <meta name="twitter:image"
+        content="https://opengraph.b-cdn.net/production/images/a7c0c3c4-712e-4ada-b72b-abcc582541a3.png?token=eEDnO1FlEJ2KO1qbtZnXTeqm_6cyi9Lu07uKkKHW2zw&height=675&width=1200&expires=33278453421">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!-- schema for website  -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "shade haven",
+          "url": "https://shadehaven-webdevrajeev.vercel.app/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://shadehaven-webdevrajeev.vercel.app/{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
 </head>
-  <body class="bg-white">
+
+<body class="bg-white">
     <header class="bg-white">
-      <div class="container mx-auto flex justify-between items-center p-5">
-        <div class="logo flex items-center">
-          <img src="./assets/logo.png" alt="logo" class="h-10">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <div class="logo flex items-center">
+                <img src="./assets/logo.png" alt="logo" class="h-10">
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Motorization</a>
+                <a href="#shades" class="text-gray-700 hover:text-[#31B4C9]">Shades</a>
+                <a href="#shades" class="text-gray-700 hover:text-[#31B4C9]">Blinds</a>
+                <a href="#shades" class="text-gray-700 hover:text-[#31B4C9]">Shutters</a>
+                <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Drapery</a>
+                <a href="#" class="text-gray-700 hover:text-[#31B4C9]">About Us</a>
+                <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Blog</a>
+                <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Contact Us</a>
+            </nav>
+            <a href="tel:5615898051"
+                class="hidden md:flex items-center bg-[#31B4C9] text-white px-4 py-2 rounded-lg shadow-lg hover:bg-[#31B8C9]">
+                CALL: <span class="ml-2 font-bold">561-589-8051</span>
+            </a>
         </div>
-        <nav class="hidden md:flex space-x-6">
-          <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Motorization</a>
-          <a href="#shades" class="text-gray-700 hover:text-[#31B4C9]">Shades</a>
-          <a href="#shades" class="text-gray-700 hover:text-[#31B4C9]">Blinds</a>
-          <a href="#shades" class="text-gray-700 hover:text-[#31B4C9]">Shutters</a>
-          <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Drapery</a>
-          <a href="#" class="text-gray-700 hover:text-[#31B4C9]">About Us</a>
-          <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Blog</a>
-          <a href="#" class="text-gray-700 hover:text-[#31B4C9]">Contact Us</a>
-        </nav>
-        <a href="tel:5615898051"
-          class="hidden md:flex items-center bg-[#31B4C9] text-white px-4 py-2 rounded-lg shadow-lg hover:bg-[#31B8C9]">
-          CALL: <span class="ml-2 font-bold">561-589-8051</span>
-        </a>
-      </div>
     </header>
     <section class="py-6 relative">
-      <div class="mx-auto px-6 relative">
-          <!-- Background Image -->
-          <div class="relative">
-              <img src="./assets/hero-img.jpeg" alt="hero_img" class="w-full h-[600px] object-cover rounded-2xl">
-  
-              <!-- Content on Top of Image -->
-              <div class="absolute top-0 left-0 w-full h-full flex items-end bg-black/50 rounded-2xl p-10">
-                  <div class="flex flex-wrap justify-between w-full items-end">
-                      <!-- Left Content -->
-                      <div class="w-full md:w-1/2 text-white">
-                          <p class="text-[18px] uppercase">Shade Haven</p>
-                          <h1 class="text-[55px] font-bold leading-tight">
-                              Custom Blinds,<br><span>Shades, Shutters</span>
-                          </h1>
-                      </div>
-                      <!-- Right Content -->
-                      <div class="w-full md:w-1/2 text-white mt-4 md:mt-0 md:pl-10">
-                          <p class="text-[16px]">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                              industry's standard dummy text ever.
-                          </p>
-                          <div class="mt-6">
-                              <button class="bg-[#78CFEA] text-white px-6 py-3 rounded-lg shadow-lg hover:bg-[#31B4C9] transition">
-                                  Contact Us
-                              </button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
+        <div class="mx-auto px-6 relative">
+            <!-- Background Image -->
+            <div class="relative">
+                <img src="./assets/hero-img.jpeg" alt="hero_img" class="w-full h-[600px] object-cover rounded-2xl">
 
-  <!-- Hero Section card  -->
-  <section class="py-12 bg-gray-100">
-    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Card 1 -->
-        <div class="bg-white shadow-lg rounded-2xl p-8 text-center">
-            <img src="./assets/card-icon-1.png" alt="icon1" class="mx-auto mb-4">
-            <h3 class="text-lg text-gray-900">Rather Have A Pro Do It?</h3>
-            <p class="text-gray-600 mt-2 font-extralight">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-            </p>
-        </div>
-
-        <!-- Card 2 (Highlighted) -->
-        <div class="bg-[#31B4C9] text-white shadow-lg rounded-2xl p-8 text-center">
-            <img src="./assets/card-icon-2.png" alt="icon2" class="mx-auto mb-4">
-            <h3 class="text-lg">Buy Risk-Free</h3>
-            <p class="mt-2 font-extralight">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-            </p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="bg-white shadow-lg rounded-2xl p-8 text-center">
-            <img src="./assets/card-icon-3.png" alt="icon3" class="mx-auto mb-4">
-            <h3 class="text-lg text-gray-900">Find Your Inspiration</h3>
-            <p class="text-gray-600 mt-2 font-extralight">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-            </p>
-        </div>
-    </div>
-</section>
-
-<!-- Blinds, Shades And Shutters Section  -->
-<section class="py-6 px-6 bg-[#EFFDFF] w-full h-full object-cover rounded-2xl" id="shades">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-      <!-- Heading -->
-      <p class="text-[#31B4C9] uppercase font-semibold tracking-wide">We Are The Experts</p>
-      <h1 class="text-3xl md:text-4xl font-extralight text-gray-900 mt-2">
-          Custom Blinds, <span class="text-black font-bold">Shades And Shutters</span>
-      </h1>
-      <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
-          We're 100% online so the showroom is in your pocket. Whether you're a DIY warrior or prefer our professional services, you can count on us to deliver top-quality blinds, shades, shutters, and curtains at an affordable price.
-      </p>
-  </div>
-
-  <!-- Card Section -->
-  <div class="relative flex items-center justify-center mt-12">
-      <!-- Left Arrow -->
-      <button class="absolute left-0 w-10 h-10 flex items-center justify-center">
-          <img src="./assets/left-arrow.png" alt="">
-      </button>
-
-      <!-- Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-white shadow-lg rounded-2xl p-6 border border-blue-200 hover:shadow-2xl w-[320px] h-[400px]">
-              <img src="./assets/card-img-1.png" alt="Light Filtering Roller Shades" class="w-full h-50 object-cover rounded-lg">
-              <h3 class="text-lg font-semibold text-gray-900 mt-4">Light Filtering Roller Shades</h3>
-              <p class="text-gray-600 mt-2 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum dolor sit.</p>
-              <button class="mt-4 flex items-center justify-center gap-2 border border-[#31B4C9] text-[#31B4C9] px-3 py-2 text-sm rounded-full hover:bg-[#31B4C9] hover:text-white transition">
-                  Download PDF 📄
-              </button>
-          </div>
-          <div class="bg-white shadow-lg rounded-2xl p-6 border border-blue-200 hover:shadow-2xl w-[320px] h-[400px]">
-              <img src="./assets/card-img-2.png" alt="Blackout Roller Shades" class="w-full h-50 object-cover rounded-lg">
-              <h3 class="text-lg font-semibold text-gray-900 mt-4">Blackout Roller Shades</h3>
-              <p class="text-gray-600 mt-2 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum dolor sit.</p>
-              <button class="mt-4 flex items-center justify-center gap-2 bg-[#31B4C9] border border-[#31B4C9] text-white px-3 py-2 text-sm rounded-full hover:bg-white hover:text-black transition">
-                  Download PDF 📄
-              </button>
-          </div>
-          <div class="bg-white shadow-lg rounded-2xl p-6 border border-blue-200 hover:shadow-2xl w-[320px] h-[400px]">
-              <img src="./assets/card-img-3.png" alt="Premium Cellular Shades" class="w-full h-50 object-cover rounded-lg">
-              <h3 class="text-lg font-semibold text-gray-900 mt-4">Premium Cellular Shades</h3>
-              <p class="text-gray-600 mt-2 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum dolor sit.</p>
-              <button class="mt-4 flex items-center justify-center gap-2 border border-[#31B4C9] text-[#31B4C9] px-3 py-2 text-sm rounded-full hover:bg-[#31B4C9] hover:text-white transition">
-                  Download PDF 📄
-              </button>
-          </div>
-      </div>
-
-      <!-- Right Arrow -->
-      <button class="absolute right-0 w-10 h-10 flex items-center justify-center">
-          <img src="./assets/right-arrow.png" alt="arrow-img">
-      </button>
-  </div>
-</section>
-
-<!-- third card section  -->
-<section class="py-12 px-6">
-    <div class="max-w-6xl mx-auto">
-        <!-- Heading -->
-        <p class="text-[#31B4C9] uppercase font-semibold tracking-wide">Quality Products</p>
-        <h1 class="text-3xl md:text-4xl font-extralight text-black mt-2">Popular <span class="text-black font-bold">Categories</span></h1>
-    </div>
-
-    <!-- Card Section -->
-    <div class="relative flex items-center justify-center mt-8">
-        <!-- Left Arrow -->
-        <button class="absolute left-0 w-10 h-10 flex items-center justify-center">
-            <img src="./assets/left-arrow.png" alt="left-arrow">
-        </button>
-
-        <!-- Cards Container -->
-        <div class="py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Card 1 -->
-            <div class="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-lg">
-                <img src="./assets/product-img-1.png" alt="Cellular Shades" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
-                    <div class="flex items-center gap-2 text-white">
-                        <img src="./assets/product-icon-1.png" alt="product-icon1">
-                        <h3 class="text-lg font-semibold">Cellular Shades</h3>
+                <!-- Content on Top of Image -->
+                <div class="absolute top-0 left-0 w-full h-full flex items-end bg-black/50 rounded-2xl p-10">
+                    <div class="flex flex-wrap justify-between w-full items-end">
+                        <!-- Left Content -->
+                        <div class="w-full md:w-1/2 text-white">
+                            <p class="text-[18px] uppercase">Shade Haven</p>
+                            <h1 class="text-[55px] font-bold leading-tight">
+                                Custom Blinds,<br><span>Shades, Shutters</span>
+                            </h1>
+                        </div>
+                        <!-- Right Content -->
+                        <div class="w-full md:w-1/2 text-white mt-4 md:mt-0 md:pl-10">
+                            <p class="text-[16px]">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the
+                                industry's standard dummy text ever.
+                            </p>
+                            <div class="mt-6">
+                                <button
+                                    class="bg-[#78CFEA] text-white px-6 py-3 rounded-lg shadow-lg hover:bg-[#31B4C9] transition">
+                                    Contact Us
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <p class="text-sm text-white mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Card 2 -->
-            <div class="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-lg">
-                <img src="./assets/product-img-2.png" alt="Faux Wood Blinds" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
-                    <div class="flex items-center gap-2 text-white">
-                        <img src="./assets/product-icon-2.png" alt="product-icon2">
-                        <h3 class="text-lg font-semibold">Faux Wood Blinds</h3>
-                    </div>
-                    <p class="text-sm text-white mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                </div>
+    <!-- Hero Section card  -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-lg rounded-2xl p-8 text-center">
+                <img src="./assets/card-icon-1.png" alt="icon1" class="mx-auto mb-4">
+                <h3 class="text-lg text-gray-900">Rather Have A Pro Do It?</h3>
+                <p class="text-gray-600 mt-2 font-extralight">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text.
+                </p>
+            </div>
+
+            <!-- Card 2 (Highlighted) -->
+            <div class="bg-[#31B4C9] text-white shadow-lg rounded-2xl p-8 text-center">
+                <img src="./assets/card-icon-2.png" alt="icon2" class="mx-auto mb-4">
+                <h3 class="text-lg">Buy Risk-Free</h3>
+                <p class="mt-2 font-extralight">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text.
+                </p>
             </div>
 
             <!-- Card 3 -->
-            <div class="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-lg">
-                <img src="./assets/product-img-3.png" alt="Roller Shades" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
-                    <div class="flex items-center gap-2 text-white">
-                         <img src="./assets/product-icon-3.png" alt="product-icon3">
-                        <h3 class="text-lg font-semibold">Roller Shades</h3>
-                    </div>
-                    <p class="text-sm text-white mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+            <div class="bg-white shadow-lg rounded-2xl p-8 text-center">
+                <img src="./assets/card-icon-3.png" alt="icon3" class="mx-auto mb-4">
+                <h3 class="text-lg text-gray-900">Find Your Inspiration</h3>
+                <p class="text-gray-600 mt-2 font-extralight">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blinds, Shades And Shutters Section  -->
+    <section class="py-6 px-6 bg-[#EFFDFF] w-full h-full object-cover rounded-2xl" id="shades">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <!-- Heading -->
+            <p class="text-[#31B4C9] uppercase font-semibold tracking-wide">We Are The Experts</p>
+            <h1 class="text-3xl md:text-4xl font-extralight text-gray-900 mt-2">
+                Custom Blinds, <span class="text-black font-bold">Shades And Shutters</span>
+            </h1>
+            <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
+                We're 100% online so the showroom is in your pocket. Whether you're a DIY warrior or prefer our
+                professional services, you can count on us to deliver top-quality blinds, shades, shutters, and curtains
+                at an affordable price.
+            </p>
+        </div>
+
+        <!-- Card Section -->
+        <div class="relative flex items-center justify-center mt-12">
+            <!-- Left Arrow -->
+            <button class="absolute left-0 w-10 h-10 flex items-center justify-center">
+                <img src="./assets/left-arrow.png" alt="">
+            </button>
+
+            <!-- Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div
+                    class="bg-white shadow-lg rounded-2xl p-6 border border-blue-200 hover:shadow-2xl w-[320px] h-[400px]">
+                    <img src="./assets/card-img-1.png" alt="Light Filtering Roller Shades"
+                        class="w-full h-50 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-900 mt-4">Light Filtering Roller Shades</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.Lorem ipsum dolor sit.</p>
+                    <button
+                        class="mt-4 flex items-center justify-center gap-2 border border-[#31B4C9] text-[#31B4C9] px-3 py-2 text-sm rounded-full hover:bg-[#31B4C9] hover:text-white transition">
+                        Download PDF 📄
+                    </button>
+                </div>
+                <div
+                    class="bg-white shadow-lg rounded-2xl p-6 border border-blue-200 hover:shadow-2xl w-[320px] h-[400px]">
+                    <img src="./assets/card-img-2.png" alt="Blackout Roller Shades"
+                        class="w-full h-50 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-900 mt-4">Blackout Roller Shades</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.Lorem ipsum dolor sit.</p>
+                    <button
+                        class="mt-4 flex items-center justify-center gap-2 bg-[#31B4C9] border border-[#31B4C9] text-white px-3 py-2 text-sm rounded-full hover:bg-white hover:text-black transition">
+                        Download PDF 📄
+                    </button>
+                </div>
+                <div
+                    class="bg-white shadow-lg rounded-2xl p-6 border border-blue-200 hover:shadow-2xl w-[320px] h-[400px]">
+                    <img src="./assets/card-img-3.png" alt="Premium Cellular Shades"
+                        class="w-full h-50 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-900 mt-4">Premium Cellular Shades</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.Lorem ipsum dolor sit.</p>
+                    <button
+                        class="mt-4 flex items-center justify-center gap-2 border border-[#31B4C9] text-[#31B4C9] px-3 py-2 text-sm rounded-full hover:bg-[#31B4C9] hover:text-white transition">
+                        Download PDF 📄
+                    </button>
                 </div>
             </div>
+
+            <!-- Right Arrow -->
+            <button class="absolute right-0 w-10 h-10 flex items-center justify-center">
+                <img src="./assets/right-arrow.png" alt="arrow-img">
+            </button>
+        </div>
+    </section>
+
+    <!-- third card section  -->
+    <section class="py-12 px-6">
+        <div class="max-w-6xl mx-auto">
+            <!-- Heading -->
+            <p class="text-[#31B4C9] uppercase font-semibold tracking-wide">Quality Products</p>
+            <h1 class="text-3xl md:text-4xl font-extralight text-black mt-2">Popular <span
+                    class="text-black font-bold">Categories</span></h1>
         </div>
 
-        <!-- Right Arrow -->
-        <button class="absolute right-0 w-10 h-10 flex items-center justify-center">
-            <img src="./assets/right-arrow.png" alt="right-arrow">
-        </button>
-    </div>
-</section>
+        <!-- Card Section -->
+        <div class="relative flex items-center justify-center mt-8">
+            <!-- Left Arrow -->
+            <button class="absolute left-0 w-10 h-10 flex items-center justify-center">
+                <img src="./assets/left-arrow.png" alt="left-arrow">
+            </button>
 
-<!-- window covering section  -->
-<section class="bg-[#31B4C9] text-white py-16 px-6">
-    <div class="max-w-6xl mx-auto text-center">
-        <!-- Subtitle -->
-        <p class="  uppercase font-semibold tracking-wide text-gray-200">See Why Shade Haven</p>
+            <!-- Cards Container -->
+            <div class="py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-lg">
+                    <img src="./assets/product-img-1.png" alt="Cellular Shades" class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
+                        <div class="flex items-center gap-2 text-white">
+                            <img src="./assets/product-icon-1.png" alt="product-icon1">
+                            <h3 class="text-lg font-semibold">Cellular Shades</h3>
+                        </div>
+                        <p class="text-sm text-white mt-2">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting.</p>
+                    </div>
+                </div>
 
-        <!-- Title -->
-        <h1 class="text-3xl md:text-5xl font-extralight mt-2">
-            Online Retailer Of Custom <span class="text-white font-semibold">Window Coverings</span>
-        </h1>
+                <!-- Card 2 -->
+                <div class="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-lg">
+                    <img src="./assets/product-img-2.png" alt="Faux Wood Blinds" class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
+                        <div class="flex items-center gap-2 text-white">
+                            <img src="./assets/product-icon-2.png" alt="product-icon2">
+                            <h3 class="text-lg font-semibold">Faux Wood Blinds</h3>
+                        </div>
+                        <p class="text-sm text-white mt-2">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting.</p>
+                    </div>
+                </div>
 
-        <!-- Description -->
-        <p class="text-md text-gray-200 max-w-4xl mx-auto mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-        </p>
-    </div>
-
-    <!-- Features Section -->
-    <div class="py-6 flex grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10 max-w-6xl mx-auto">
-        <!-- Feature 1 -->
-        <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
-            <img src="./assets/online-retail-icon1.png" alt="icon">
-            <h3 class="text-lg font-semibold mt-3">Your Windows, Your Way</h3>
-            <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
-            <img src="./assets/online-retail-icon2.png" alt="icon">
-            <h3 class="text-lg font-semibold mt-3">Top Quality & Style At Low Prices</h3>
-            <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
-            <img src="./assets/online-retail-icon3.png" alt="icon">
-            <h3 class="text-lg font-semibold mt-3">Don't Worry About It</h3>
-            <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
-            <img src="./assets/online-retail-icon4.png" alt="icon">
-            <h3 class="text-lg font-semibold mt-3">Get Free Advice From Experts</h3>
-            <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-    </div>
-</section>
-
-<!-- testimonial section  -->
-<section class="py-16 bg-gray-50">
-    <div class="max-w-5xl mx-auto text-center">
-        <p class="text-sm uppercase tracking-widest text-[#31B4C9]">Client Testimonials</p>
-        <h2 class="text-3xl md:text-4xl font-semibold mt-2">What Our <span class="text-black font-bold">Clients Say</span></h2>
-        <p class="text-gray-500 max-w-3xl mx-auto mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </p>
-    </div>
-
-    <!-- Testimonials Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 max-w-6xl mx-auto">
-        <!-- Testimonial 1 -->
-        <div class="relative bg-gray-50 p-6 rounded-lg shadow-md">
-            <div class="absolute -top-5 left-6 bg-white rounded-full p-2 shadow-md">
-                <span class="text-[#31B4C9] text-3xl">❝</span>
+                <!-- Card 3 -->
+                <div class="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-lg">
+                    <img src="./assets/product-img-3.png" alt="Roller Shades" class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
+                        <div class="flex items-center gap-2 text-white">
+                            <img src="./assets/product-icon-3.png" alt="product-icon3">
+                            <h3 class="text-lg font-semibold">Roller Shades</h3>
+                        </div>
+                        <p class="text-sm text-white mt-2">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting.</p>
+                    </div>
+                </div>
             </div>
-            <div class="text-gray-400 text-lg">⭐⭐⭐⭐⭐</div>
-            <p class="text-gray-600 mt-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <hr class="mt-2">
-            <div class="mt-4 font-bold text-gray-700">Mont Livingstone</div>
-            <p class="text-sm text-gray-500">Designer</p>
-        </div>
-        <!-- Testimonial 2 -->
-        <div class="relative bg-white p-6 rounded-lg shadow-md">
-            <div class="absolute -top-5 left-6 bg-white rounded-full p-2 shadow-md">
-                <span class="text-[#31B4C9] text-3xl">❝</span>
-            </div>
-            <div class="text-gray-400 text-lg">⭐⭐⭐⭐⭐</div>
-            <p class="text-gray-600 mt-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <hr class="mt-2">
-            <div class="mt-4 font-bold text-gray-700">William Charls</div>
-            <p class="text-sm text-gray-500">Designer</p>
-        </div>
-        <!-- Testimonial 3 -->
-        <div class="relative bg-gray-50 p-6 rounded-lg shadow-md">
-            <div class="absolute -top-5 left-6 bg-white rounded-full p-2 shadow-md">
-                <span class="text-[#31B4C9] text-3xl">❝</span>
-            </div>
-            <div class="text-gray-400 text-lg">⭐⭐⭐⭐☆</div>
-            <p class="text-gray-600 mt-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <hr class="mt-2">
-            <div class="mt-4 font-bold text-gray-700">Ricky Haris</div>
-            <p class="text-sm text-gray-500">Designer</p>
-        </div>
-    </div>
-    <!-- Navigation Arrows -->
-    <div class="flex justify-center items-center mx-auto gap-6">
-    <button>
-        <img src="./assets/left-arrow.png" alt="left-arrow" class="mt-5 w-10 h-10">
-    </button>
-    <button>
-        <img src="./assets/right-arrow.png" alt="right-arrow" class="mt-5 w-10 h-10">
-    </button>
-    </div>
-</section>
 
-<!-- footer section  -->
- 
-<footer class="bg-[#15203A] text-white py-12 px-6 md:px-16">
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        <!-- Company Logo & Description -->
-        <div>
-            <div class="flex items-center space-x-2">
-                <img src="./assets/logo.png" alt="Shade Haven Logo" class="w-30">
-            </div>
-            <p class="text-gray-400 mt-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            <!-- Right Arrow -->
+            <button class="absolute right-0 w-10 h-10 flex items-center justify-center">
+                <img src="./assets/right-arrow.png" alt="right-arrow">
+            </button>
+        </div>
+    </section>
+
+    <!-- window covering section  -->
+    <section class="bg-[#31B4C9] text-white py-16 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <!-- Subtitle -->
+            <p class="  uppercase font-semibold tracking-wide text-gray-200">See Why Shade Haven</p>
+
+            <!-- Title -->
+            <h1 class="text-3xl md:text-5xl font-extralight mt-2">
+                Online Retailer Of Custom <span class="text-white font-semibold">Window Coverings</span>
+            </h1>
+
+            <!-- Description -->
+            <p class="text-md text-gray-200 max-w-4xl mx-auto mt-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
             </p>
         </div>
 
-        <!-- Quick Links -->
-        <div>
-            <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul class="text-gray-400 space-y-2">
-                <li><a href="#" class="hover:text-blue-400">Motorization</a></li>
-                <li><a href="#" class="hover:text-blue-400">Shades</a></li>
-                <li><a href="#" class="hover:text-blue-400">Blinds</a></li>
-                <li><a href="#" class="hover:text-blue-400">Shutters</a></li>
-                <li><a href="#" class="hover:text-blue-400">Drapery</a></li>
-            </ul>
+        <!-- Features Section -->
+        <div class="py-6 flex grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10 max-w-6xl mx-auto">
+            <!-- Feature 1 -->
+            <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
+                <img src="./assets/online-retail-icon1.png" alt="icon">
+                <h3 class="text-lg font-semibold mt-3">Your Windows, Your Way</h3>
+                <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
+                <img src="./assets/online-retail-icon2.png" alt="icon">
+                <h3 class="text-lg font-semibold mt-3">Top Quality & Style At Low Prices</h3>
+                <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
+                <img src="./assets/online-retail-icon3.png" alt="icon">
+                <h3 class="text-lg font-semibold mt-3">Don't Worry About It</h3>
+                <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="bg-[#31B4C9] p-6 rounded-lg shadow-md text-center justify-items-center">
+                <img src="./assets/online-retail-icon4.png" alt="icon">
+                <h3 class="text-lg font-semibold mt-3">Get Free Advice From Experts</h3>
+                <p class="text-sm text-gray-100 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial section  -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-5xl mx-auto text-center">
+            <p class="text-sm uppercase tracking-widest text-[#31B4C9]">Client Testimonials</p>
+            <h2 class="text-3xl md:text-4xl font-semibold mt-2">What Our <span class="text-black font-bold">Clients
+                    Say</span></h2>
+            <p class="text-gray-500 max-w-3xl mx-auto mt-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </p>
         </div>
 
-        <!-- Additional Links -->
-        <div>
-            <h3 class="text-lg font-semibold mb-4">Additional Links</h3>
-            <ul class="text-gray-400 space-y-2">
-                <li><a href="#" class="hover:text-blue-400">About Us</a></li>
-                <li><a href="#" class="hover:text-blue-400">Blog</a></li>
-                <li><a href="#" class="hover:text-blue-400">Contact Us</a></li>
-                <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
-                <li><a href="#" class="hover:text-blue-400">Terms Of Service</a></li>
-            </ul>
+        <!-- Testimonials Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 max-w-6xl mx-auto">
+            <!-- Testimonial 1 -->
+            <div class="relative bg-gray-50 p-6 rounded-lg shadow-md">
+                <div class="absolute -top-5 left-6 bg-white rounded-full p-2 shadow-md">
+                    <span class="text-[#31B4C9] text-3xl">❝</span>
+                </div>
+                <div class="text-gray-400 text-lg">⭐⭐⭐⭐⭐</div>
+                <p class="text-gray-600 mt-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                <hr class="mt-2">
+                <div class="mt-4 font-bold text-gray-700">Mont Livingstone</div>
+                <p class="text-sm text-gray-500">Designer</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="relative bg-white p-6 rounded-lg shadow-md">
+                <div class="absolute -top-5 left-6 bg-white rounded-full p-2 shadow-md">
+                    <span class="text-[#31B4C9] text-3xl">❝</span>
+                </div>
+                <div class="text-gray-400 text-lg">⭐⭐⭐⭐⭐</div>
+                <p class="text-gray-600 mt-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                <hr class="mt-2">
+                <div class="mt-4 font-bold text-gray-700">William Charls</div>
+                <p class="text-sm text-gray-500">Designer</p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="relative bg-gray-50 p-6 rounded-lg shadow-md">
+                <div class="absolute -top-5 left-6 bg-white rounded-full p-2 shadow-md">
+                    <span class="text-[#31B4C9] text-3xl">❝</span>
+                </div>
+                <div class="text-gray-400 text-lg">⭐⭐⭐⭐☆</div>
+                <p class="text-gray-600 mt-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                <hr class="mt-2">
+                <div class="mt-4 font-bold text-gray-700">Ricky Haris</div>
+                <p class="text-sm text-gray-500">Designer</p>
+            </div>
+        </div>
+        <!-- Navigation Arrows -->
+        <div class="flex justify-center items-center mx-auto gap-6">
+            <button>
+                <img src="./assets/left-arrow.png" alt="left-arrow" class="mt-5 w-10 h-10">
+            </button>
+            <button>
+                <img src="./assets/right-arrow.png" alt="right-arrow" class="mt-5 w-10 h-10">
+            </button>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <footer class="bg-[#15203A] text-white py-12 px-6 md:px-16">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Company Logo & Description -->
+            <div>
+                <div class="flex items-center space-x-2">
+                    <img src="./assets/logo.png" alt="Shade Haven Logo" class="w-30">
+                </div>
+                <p class="text-gray-400 mt-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="text-gray-400 space-y-2">
+                    <li><a href="#" class="hover:text-blue-400">Motorization</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Shades</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Blinds</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Shutters</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Drapery</a></li>
+                </ul>
+            </div>
+
+            <!-- Additional Links -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Additional Links</h3>
+                <ul class="text-gray-400 space-y-2">
+                    <li><a href="#" class="hover:text-blue-400">About Us</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Blog</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Terms Of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Contact Information</h3>
+                <ul class="text-gray-400 space-y-2">
+                    <li class="flex items-center space-x-2">
+                        <span>📍</span>
+                        <span>14 NE Lorem Ipsum, Suite 705, FL 12345</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <span>📞</span>
+                        <span>(123) 123-1234</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <span>📧</span>
+                        <span>shadehaven@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <!-- Contact Information -->
-        <div>
-            <h3 class="text-lg font-semibold mb-4">Contact Information</h3>
-            <ul class="text-gray-400 space-y-2">
-                <li class="flex items-center space-x-2">
-                    <span>📍</span>
-                    <span>14 NE Lorem Ipsum, Suite 705, FL 12345</span>
-                </li>
-                <li class="flex items-center space-x-2">
-                    <span>📞</span>
-                    <span>(123) 123-1234</span>
-                </li>
-                <li class="flex items-center space-x-2">
-                    <span>📧</span>
-                    <span>shadehaven@gmail.com</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Newsletter Subscription -->
-    <div class="mt-8 max-w-3xl text-start">
-        <h3 class="text-lg ml-35 mt-10 font-semibold mb-4">Subscribe Us For More Updates & News !!</h3>
-        <div class="ml-30 flex items-start justify-items-start bg-gray-800 p-2 rounded-full max-w-md">
-            <input type="email" placeholder="Enter your email address" class=" bg-gray-800 text-white px-4 py-2 outline-none w-full rounded-l-full">
-            <button class="bg-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-500">Subscribe</button>
-        </div>
-</footer>
+        <!-- Newsletter Subscription -->
+        <div class="mt-8 max-w-3xl text-start">
+            <h3 class="text-lg ml-35 mt-10 font-semibold mb-4">Subscribe Us For More Updates & News !!</h3>
+            <div class="ml-30 flex items-start justify-items-start bg-gray-800 p-2 rounded-full max-w-md">
+                <input type="email" placeholder="Enter your email address"
+                    class=" bg-gray-800 text-white px-4 py-2 outline-none w-full rounded-l-full">
+                <button class="bg-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-500">Subscribe</button>
+            </div>
+    </footer>
 
 </body>
 
